@@ -186,7 +186,7 @@ const SignIn = () => {
             disabled={loading}
             onClick={() => handleOAuthSignIn('apple')}
           >
-            <Apple />
+            <Github />
             <span className="ml-2">Continue with Apple</span>
           </Button>
         </div>
