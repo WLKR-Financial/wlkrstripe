@@ -169,10 +169,10 @@ export default function Pricing({ products }: Props) {
               </a>
             </div>
             <div className="flex items-center justify-start">
-              <a href="https://vercel.com" aria-label="Vercel.com Link">
+              <a href="https://walkrfinancial.com" aria-label="Walkrfinancial.com Link">
                 <img
-                  src="/vercel.svg"
-                  alt="Vercel.com Logo"
+                  src="/WlkrRetro.svg"
+                  alt="Walkrfinanical.com Logo"
                   className="h-6 text-white"
                 />
               </a>
