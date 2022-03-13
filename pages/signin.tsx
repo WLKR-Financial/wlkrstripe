@@ -6,6 +6,7 @@ import { supabaseClient } from '@supabase/supabase-auth-helpers/nextjs';
 
 import Button from 'components/ui/Button';
 import GitHub from 'components/icons/GitHub';
+import Apple from 'components/icons/Apple';
 import Input from 'components/ui/Input';
 import LoadingDots from 'components/ui/LoadingDots';
 import Logo from 'components/icons/Logo';
@@ -178,6 +179,16 @@ const SignIn = () => {
           >
             <GitHub />
             <span className="ml-2">Continue with GitHub</span>
+          </Button>
+
+          <Button
+            variant="slim"
+            type="submit"
+            disabled={loading}
+            onClick={() => handleOAuthSignIn('apple')}
+          >
+            <Apple />
+            <span className="ml-2">Continue with Apple</span>
           </Button>
         </div>
       </div>
