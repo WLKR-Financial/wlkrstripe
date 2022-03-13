@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="rounded-full border border-zinc-700 mr-2">
                 <Logo />
               </span>
-              <span>ACME</span>
+              <span>WLKR</span>
             </a>
           </Link>
         </div>
@@ -28,21 +28,21 @@ export default function Footer() {
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
-              <Link href="/">
+              <Link href="/about">
                 <a className="text-white hover:text-zinc-200 transition ease-in-out duration-150">
                   About
                 </a>
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
-              <Link href="/">
+              <Link href="/careers">
                 <a className="text-white hover:text-zinc-200 transition ease-in-out duration-150">
                   Careers
                 </a>
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
-              <Link href="/">
+              <Link href="/blog">
                 <a className="text-white hover:text-zinc-200 transition ease-in-out duration-150">
                   Blog
                 </a>
@@ -58,14 +58,14 @@ export default function Footer() {
               </p>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
-              <Link href="/">
+              <Link href="/privacy-policy">
                 <a className="text-white hover:text-zinc-200 transition ease-in-out duration-150">
                   Privacy Policy
                 </a>
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
-              <Link href="/">
+              <Link href="/terms-of-use">
                 <a className="text-white hover:text-zinc-200 transition ease-in-out duration-150">
                   Terms of Use
                 </a>
@@ -77,7 +77,7 @@ export default function Footer() {
           <div className="flex space-x-6 items-center h-10">
             <a
               aria-label="Github Repository"
-              href="https://github.com/vercel/nextjs-subscription-payments"
+              href="https://github.com/WLKR-Financial/nextjs-subscription-payments"
             >
               <GitHub />
             </a>
@@ -86,11 +86,11 @@ export default function Footer() {
       </div>
       <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4 bg-zinc-900">
         <div>
-          <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+          <span>&copy; 2022 Safahi Corp. All rights reserved.</span>
         </div>
         <div className="flex items-center">
           <span className="text-white">Crafted by</span>
-          <a href="https://vercel.com" aria-label="Vercel.com Link">
+          <a href="https://safahicorp.com" aria-label="safahicorp.com Link">
             <img
               src="/vercel.svg"
               alt="Vercel.com Logo"
