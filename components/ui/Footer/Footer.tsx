@@ -92,8 +92,8 @@ export default function Footer() {
           <span className="text-white">Crafted by</span>
           <a href="https://safahicorp.com" aria-label="safahicorp.com Link">
             <img
-              src="/vercel.svg"
-              alt="Vercel.com Logo"
+              src="/WlkrRetro.svg"
+              alt="Walker Logo"
               className="inline-block h-6 ml-4 text-white"
             />
           </a>
